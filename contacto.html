@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="es-cl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Dancing+Script&family=Josefin+Slab:ital,wght@0,100;0,200;0,300;1,100;1,200&family=Quicksand:wght@300&display=swap"
+        rel="stylesheet">
+    <link rel="icon" type="image/png"
+        href="assets/images/Logotipo e Isotipo Yogalquimia Illimay/fondo TRANSPARENTE.png" />
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <!-- CSS Propios -->
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+    <link rel="stylesheet" type="text/css" href="assets/fontawesome-free-5.15.3-web/css/all.css">
+    <!--Jquery validate, jquery-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.19.0/jquery.validate.min.js"></script>
+    <!--Js propio-->
+    <script src="assets/js/main.js"></script>
+
+    <title>Yoga Alquimia</title>
+</head>
+
+<body id="my_body">
+    <!--NAVBAR-->
+    <header class="mynav" id="my-header">
+
+        <div class="form-check form-switch">
+            <input class="form-check-input" type="checkbox" id="darkMode">
+            <label class="form-check-label" for="darkMode">Dark mode</label>
+        </div>
+
+        <nav class="navbar navbar-expand-lg ">
+            <a class="navbar-brand" href="index.html">
+                <img class="logo" src="assets/images/fondo-blanco-borde-blanco.png" alt="BRAND" height="80px"
+                    width="80px">
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"><i class="fas fa-spa"></i></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link a-nav pr-5" href="index.html">Home<span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link a-nav pr-5" href="contacto.html">Contacto</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link a-nav pr-5" href="horario.html">Horarios</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link a-nav pr-5" href="gallery.html">Galería</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link a-nav pr-5" href="acerca-de.html">Acerca de</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link a-nav pr-5" href="perfiles.html">Perfiles</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link a-nav pr-5" href="conversor.html">Conversor</a>
+                    </li>
+                </ul>
+                <div class="row">
+                    <div id="mostrarHora" class="col-12 far fa-clock mr-5 ">
+                        <script type="text/javascript">mostrarHora();</script>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div id="mostrarFecha" class="col-12 mr-5 font-weight-bold ">
+                        <script type="text/javascript">mostrarFecha();</script>
+                    </div>
+                </div>
+            </div>
+            <div class="d-none d-lg-block d-xl-block">
+                <ul class="navbar-nav mr-auto ">
+                    <li class="nav-item col-6 col-md-auto ">
+                        <a href="#" class="nav-link a-nav">
+                            <i class="fas fa-user"></i>
+                        </a>
+                    </li>
+                    <li class="nav-item col-6 col-md-auto">
+                        <a href="#" class="nav-link a-nav">
+                            <i class="fas fa-user-plus"></i>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <!--FIN NAVBAR-->
+
+    <!--FORMULARIO-->
+    <main class="formu container mt-5 mb-4">
+        <div class="row">
+            <div class="col-md-6">
+                <div class="card">
+                    <div class="card-header">
+                        <h3 class="card-title"> Comienza tu camino en Yogalquimia</h3>
+                        <h3 class="card-title"> Contáctanos!</h3>
+                    </div>
+                </div>
+
+                <div class="card-body">
+                    <!--FORMULARIO-->
+                    <form action="#" method="GET" enctype="text/plain" id="form-sofi">
+                        <!--Agrupar componentes...FORM GROUP-->
+
+                        <div class="form-group">
+                            <label for="nombre" class="font-weight-bold">Nombre:</label>
+                            <!--font-weight-bold = negrita-->
+                            <input class="form-control" type="text" name="nombre" id="nombre"
+                                placeholder="Ingresa tu nombre" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="apellido" class="font-weight-bold">Apellido:</label>
+                            <!--font-weight-bold = negrita-->
+                            <input class="form-control" type="text" name="apellido" id="apellido"
+                                placeholder="Ingresa tu apellido" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="rut" class="font-weight-bold">RUT:</label>
+                            <!--font-weight-bold = negrita-->
+                            <input class="form-control" type="text" name="rut" id="rut"
+                                placeholder="Ingresa tu rut sin puntos ni guion" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="fecha_nacimiento" class="font-weight-bold">Fecha de nacimiento:</label>
+                            <!--font-weight-bold = negrita-->
+                            <input class="form-control" type="date" name="fecha_nacimiento" id="fecha_nacimiento"
+                                required>
+                        </div>
+                        <!--Agrupar componentes...FORM GROUP ROW-->
+                        <div class="form-group row">
+                            <label for="email" class="col-sm-4 col-form-label font-weight-bold">Email:</label>
+                            <div class="col-sm-8">
+                                <input class="form-control" type="email" name="email" id="email"
+                                    placeholder="Ingresa tu correo electrónico" required>
+                            </div>
+                        </div>
+                        <div class="form-group row">
+                            <label for="fono" class="col-sm-4 col-form-label font-weight-bold">Teléfono:</label>
+                            <div class="col-sm-8">
+                                <input class="form-control" type="text" name="fono" id="fono"
+                                    placeholder="Ej:+56 9 1234 5678" required>
+                            </div>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="password" class="col-sm-6 control-label">Contraseña</label>
+                            <div class="col-sm-10">
+                                <input type="password" id="password" name="password" class="form-control">
+                            </div>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="confirm_password" class="col-sm-6 control-label">Confirmar contraseña</label>
+                            <div class="col-sm-10">
+                                <input type="password" id="confirm_password" name="confirm_password"
+                                    class="form-control">
+                            </div>
+                        </div>
+
+
+                        <!--Textarea-->
+                        <div class="form-group">
+                            <label for="comentarios" class="font-weight-bold">Motivo de consulta:</label>
+                            <textarea class="form-control" name="comentarios" id="comentarios" cols="30" rows="5"
+                                maxlength="21"></textarea>
+                        </div>
+                        <div class="d-flex">
+                            <p class="float-right"><span id="countno">0</span>/20</p>
+                            <p class="error-msg pl-4">Character Limit Exceed</p>
+                            <br clear="both">
+                        </div>
+
+
+
+                        <!-- Toogle button o Switch-->
+                        <div class="form-group">
+                            <div class="custom-control custom-switch">
+                                <input class="custom-control-input" type="checkbox" name="aceptar" id="aceptar">
+                                <label for="aceptar" class="custom-control-label">Quiero recibir notificaciones en mi
+                                    correo</label>
+                            </div>
+                        </div>
+
+                        <!--Botones-->
+                        <div class="form-group">
+                            <input class="btn btn-secondary" type="submit" value="Enviar" id="enviar">
+                        </div>
+                    </form>
+                    <!-- FIN FORMULARIO -->
+                </div>
+
+
+            </div>
+            <div class="col-md-6">
+                <img src="assets/images/Logotipo e Isotipo Yogalquimia Illimay/fondo TRANSPARENTE.png" class="img-fluid"
+                    alt="logo" width="100%" height="100%">
+
+            </div>
+        </div>
+
+    </main>
+
+    <!--FIN CONTENIDO-->
+
+    <!--INICIO FOOTER-->
+    <footer class="my-footer" id="my-footer">
+        <div class="container">
+            <div class="row justify-content-between align-items-center">
+                <div class=" col-sm-12 col-md-3 text-center mt-5">
+                    <img src="assets/images/Logotipo e Isotipo Yogalquimia Illimay/Tipografia multicolor TRANSPARENTE.png"
+                        alt="Tipografia" height="150" width="150">
+                </div>
+                <div class="col-sm-12 col-md-3 text-center ">
+                    <a href="index.html"><img src="assets/images/fondo-blanco-borde-blanco.png" alt="logo yogalquimia"
+                            height="80px" width="80px">
+                    </a>
+                    <ul class="nav flex-column myul">
+                        <li class="nav-item">
+                            <a class="nav-link active" href="acerca-de.html">Acerca de </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" href="contacto.html">Contacto</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" href="horario.html">Horarios </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" href="gallery.html">Galería</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-sm-12 col-md-3 text-center ">
+                    <h4 class="f-txt pb-4  ">✺ Sigueme en mis redes ✺</h4>
+                    <ul class="f-list">
+                        <li class="nav-item"><a href="#"></a><i class="fab fa-instagram micon"></i></li>
+                        <li class="nav-item"><a href="#"></a><i class="fab fa-youtube micon"></i></li>
+                        <li class="nav-item"><a href="#"></a><i class="fab fa-whatsapp micon"></i></li>
+                        <li class="nav-item"><a href="#"></a><i class="fab fa-spotify micon"></i></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        </div>
+        <div class="row text-center">
+            <div class="col-sm-12 col-md-12 col-lg-12 col-xl-12 mt-5">
+                <p class="cprg">© Copyright 2021 Javali Proyects
+                </p>
+            </div>
+    </footer>
+
+    <!--FIN FOOTER-->
+
+
+
+
+
+    <!-- Javascript Optional -->
+
+    <!-- Jquery first, then Popper.js, then Bootstrap JS -->
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+        integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.min.js"
+        integrity="sha384-+YQ4JLhjyBLPDQt//I+STsc9iw4uQqACwlvpslubQzn4u2UU2UFM80nGisd026JF"
+        crossorigin="anonymous"></script>
+    <!--Javascrip escritorio-->
+    <script src="assets/js/bootstrap.min.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link
+            href="https://fonts.googleapis.com/css2?family=Dancing+Script&family=Josefin+Slab:ital,wght@0,100;0,200;0,300;1,100;1,200&family=Quicksand:wght@300&display=swap"
+            rel="stylesheet">
+    <link rel="icon" type="image/png"
+          href="../assets/images/Logotipo e Isotipo Yogalquimia Illimay/fondo TRANSPARENTE.png"/>
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="../assets/css/bootstrap.min.css">
+    <!-- CSS Propios -->
+    <link rel="stylesheet" type="text/css" href="../assets/css/style.css">
+    <link rel="stylesheet" type="text/css" href="../assets/fontawesome-free-5.15.3-web/css/all.css">
+    <!--Jquery validate, jquery-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.19.0/jquery.validate.min.js"></script>
+    <!--Js propio-->
+    <script src="../assets/js/main.js"></script>
+    <meta charset="UTF-8">
+    <title></title>
+</head>
+<body>
+<nav class="navbar navbar-expand-lg mynav">
+    <a class="navbar-brand" href="../index.html">
+        <img class="logo" src="../assets/images/fondo-blanco-borde-blanco.png" alt="BRAND" height="80px"
+             width="80px">
+    </a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"><i class="fas fa-spa"></i></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+            <li class="nav-item active">
+                <a class="nav-link a-nav pr-5" href="../index.html">Home<span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link a-nav pr-5" href="../contacto.html">Contacto</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link a-nav pr-5" href="../horario.html">Horarios</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link a-nav pr-5" href="../gallery.html">Galería</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link a-nav pr-5" href="../acerca-de.html">Acerca de</a>
+            </li>
+        </ul>
+    </div>
+    <div class="row">
+        <div id="mostrarHora" class="col-12 far fa-clock mr-5 ">
+            <script type="text/javascript">mostrarHora();</script>
+        </div>
+    </div>
+
+    <div class="row">
+        <div id="mostrarFecha" class="col-12 mr-5 font-weight-bold ">
+            <script type="text/javascript">mostrarFecha();</script>
+        </div>
+    </div>
+
+    <div class="d-none d-lg-block d-xl-block">
+        <ul class="navbar-nav mr-auto ">
+            <li class="nav-item col-6 col-md-auto ">
+                <a href="#" class="nav-link a-nav">
+                    <i class="fas fa-user"></i>
+                </a>
+            </li>
+            <li class="nav-item col-6 col-md-auto">
+                <a href="#" class="nav-link a-nav">
+                    <i class="fas fa-user-plus"></i>
+                </a>
+            </li>
+        </ul>
+    </div>
+</nav>
+</body>
+</html>

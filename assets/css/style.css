@@ -1,0 +1,272 @@
+
+body {
+    /*--color-bg: bisque;
+    --color-txt: #212F3D;*/
+    font-family: 'Quicksand', sans-serif;
+}
+
+/*body.dark-mode {
+    --color-bg: #212F3D;
+    --color-txt: bisque;
+
+}
+
+body {
+    background-color: var(--color-bg);
+}*/
+
+/*NAVBAR*/
+
+.mynav {
+    background-color: #4158D0;
+    background-image: linear-gradient(43deg, #4158D0 0%, #C850C0 46%, #FFCC70 100%);
+}
+
+.mynav-dark {
+    background-color: #1b1e21;
+}
+
+
+.navbar-nav {
+
+    margin: 0 auto;
+    font-family: 'Dancing Script', cursive;
+    font-size: 25px;
+}
+
+.a-nav {
+    color: bisque;
+
+}
+
+.fa-spa {
+    color: bisque;
+    font-size: 35px;
+}
+
+.fa-clock {
+    color: bisque;
+    font-size: 25px;
+    margin-right: 5px;
+}
+
+#mostrarFecha {
+    color: bisque;
+    font-size: 25px;
+}
+
+.nav-btn {
+    color: bisque;
+    border-color: bisque;
+    font-size: 20px;
+
+
+}
+
+
+/* FIN NAVBAR */
+/* INICIO CONTENIDO */
+.p-bienv {
+
+    font-size: 20px;;
+}
+
+/* FIN CONTENIDO */
+
+
+/*FOOTER*/
+.my-footer {
+
+    background-image: linear-gradient(43deg, #4158D0 0%, #C850C0 46%, #FFCC70 100%);
+    font-family: 'Dancing Script', cursive;
+
+}
+
+.my-footer-dark {
+    background-color: #1b1e21;
+    font-family: 'Dancing Script', cursive;
+
+}
+
+.myul {
+
+    font-size: 25px;
+    color: bisque;
+}
+
+
+.f-txt {
+
+    color: bisque;
+    font-family: 'Dancing Script', cursive;
+}
+
+.f-list {
+    list-style: none;
+    padding: 3px;
+}
+
+/*iconos*/
+.micon {
+
+    color: bisque;
+    font-size: 35px;
+
+}
+
+.icon-loto{
+    color:black;
+    font-size: 40px;
+}
+.icon-loto-dark{
+    color:purple;
+    font-size: 40px;
+}
+
+
+
+.cprg {
+
+    font-family: 'Quicksand', sans-serif;
+}
+
+/*FIN FOOTER*/
+
+/*INICIO FORMULARIO*/
+
+.formu {
+    background-color: #fef3f1;
+    border-radius: 20px;
+}
+
+/*FIN FORMULARIO*/
+
+/*BIENVENIDA*/
+
+.bienvenida {
+    background-color: #fef3f1;
+}
+
+.bienvenida-dark {
+    background-color: #1b1e21;
+    color: #cacaca;
+}
+
+/*FIN BIENVENIDA*/
+
+
+/*EFECTOS*/
+
+i:hover {
+    color: cornflowerblue;
+}
+
+a:visited {
+    color: bisque;
+}
+
+a:hover {
+    color: cornflowerblue;
+}
+
+/*--FIN EFECTOS--*/
+
+/*--INICIO CARROUSEL--*/
+.carousel-caption-seba {
+    position: absolute;
+    right: 70%;
+    bottom: 0px;
+    left: 10%;
+    z-index: 10;
+    padding-top: 85px;
+    padding-bottom: 10%;
+    color: #fff;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.carousel-item-seba {
+    position: relative;
+    display: none;
+    float: left;
+    width: 100%;
+    margin-right: -100%;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    transition: -webkit-transform 1.5s ease-in-out;
+    transition: transform 1.5s ease-in-out;
+    transition: transform 1.5s ease-in-out, -webkit-transform 2s ease-in-out;
+}
+
+.btn-info-seba {
+    color: #fff;
+    background-color: #17a2b8;
+    border-color: #17a2b8;
+}
+
+/*--FIN CARROUSEL-*/
+
+/*GALLERY*/
+
+.galery-color {
+
+    background-color: #fef3f1;
+}
+
+/*FIN GALLERY*/
+
+/*CARDS*/
+.card-body {
+
+    background-color: #fef3f1;
+}
+
+.card-footer {
+
+    background-color: whitesmoke;
+}
+
+.maca-med {
+
+    background-color: #fff;
+}
+
+/*FIN CARDS*/
+
+/*FORMULARIO ERROR*/
+.error {
+    color: red !important;
+    border-color: #dc3545;
+
+}
+.error-msg{
+    color: red;
+    float: left;
+    display: none;
+}
+.float-right{
+    float: right;
+}
+
+/* FIN ERROR*/
+
+iframe {
+    width: 100%;
+    height: 110px;
+    border: 0;
+}
+
+.dark-mode {
+    background-color: #1b1e21;
+}
+
+/*light-mode {
+    background-color: #1b1e21;
+}
+
+
+
+
+
+
+
